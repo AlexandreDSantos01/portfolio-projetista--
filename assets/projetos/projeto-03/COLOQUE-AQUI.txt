@@ -1,0 +1,8 @@
+Terceiro projeto em destaque.
+
+Coloque nesta pasta:
+
+- capa.jpg
+- render-01.jpg
+- render-02.jpg
+- render-03.jpg

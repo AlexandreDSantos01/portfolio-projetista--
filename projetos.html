@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos | Alexandre Projetista</title>
+  <meta name="description" content="Galeria de projetos, renders e estudos 3D de Alexandre Projetista.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html#inicio" aria-label="Ir para o início">Alexandre<span>Projetista</span></a>
+    <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html#servicos">Serviços</a>
+      <a href="index.html#projetos">Destaques</a>
+      <a href="index.html#processo">Processo</a>
+      <a href="index.html#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Todos os projetos</p>
+      <h1>Renders, estudos visuais e apresentações em 3D.</h1>
+      <p>Uma seleção de projetos para mostrar composição, atmosfera, layout e leitura visual dos ambientes.</p>
+    </section>
+
+    <section class="section all-projects">
+      <article class="project-detail-card">
+        <video controls preload="none" poster="assets/projetos/projeto-principal/capa.png">
+          <source src="assets/projetos/projeto-principal/tour.mp4" type="video/mp4">
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+        <div>
+          <p class="eyebrow">Projeto principal</p>
+          <h2>Tour renderizado do ambiente</h2>
+          <p>Vídeo de apresentação para mostrar a experiência do espaço, com foco em atmosfera, composição e percepção visual.</p>
+        </div>
+      </article>
+
+      <div class="gallery-grid">
+        <img src="assets/projetos/projeto-principal/render-01.png" alt="Render 01 do projeto principal">
+        <img src="assets/projetos/projeto-principal/render-02.png" alt="Render 02 do projeto principal">
+        <img src="assets/projetos/projeto-principal/render-03.png" alt="Render 03 do projeto principal">
+      </div>
+
+      <div class="projects-grid project-list">
+        <article class="project-card">
+          <img class="project-image" src="assets/projetos/projeto-02/capa.png" alt="Capa do segundo projeto">
+          <div class="project-body">
+            <p>Destaque 02</p>
+            <h3>Estudo visual de interiores</h3>
+            <span>Renders para leitura de layout, materiais, iluminação e composição do ambiente.</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <img class="project-image" src="assets/projetos/projeto-03/capa.png" alt="Capa do terceiro projeto">
+          <div class="project-body">
+            <p>Destaque 03</p>
+            <h3>Proposta de ambiente em 3D</h3>
+            <span>Apresentação visual para validar sensação do espaço e direção estética do projeto.</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="contact">
+      <div>
+        <p class="eyebrow">Contato</p>
+        <h2>Gostou da apresentação dos projetos?</h2>
+        <p>Me envie medidas, fotos do espaço e referências para conversarmos sobre o seu projeto.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="button primary" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">Chamar no WhatsApp</a>
+        <a class="button secondary" href="mailto:seuemail@exemplo.com">Enviar e-mail</a>
+        <a class="button secondary" href="https://instagram.com/seuusuario" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-whatsapp" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer" aria-label="Chamar no WhatsApp">WhatsApp</a>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Alexandre Projetista</span>
+    <a href="index.html">Voltar para a home</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
