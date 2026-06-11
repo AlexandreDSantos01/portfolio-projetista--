@@ -349,11 +349,16 @@ h3 {
 }
 
 .project-card {
+  display: block;
   overflow: hidden;
   background: var(--panel);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.project-card-link {
+  cursor: pointer;
 }
 
 .project-card-large {
@@ -448,6 +453,12 @@ h3 {
   color: var(--teal);
 }
 
+.section-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
 .help {
   background: #ffffff;
 }
@@ -507,6 +518,10 @@ h3 {
   line-height: 1.7;
 }
 
+.project-detail-card .button {
+  margin-top: 12px;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -523,6 +538,88 @@ h3 {
 
 .project-list {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.project-list-wide {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gallery-grid-rich {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.case-hero {
+  position: relative;
+  min-height: 78vh;
+  display: flex;
+  align-items: flex-end;
+  padding: 140px clamp(20px, 7vw, 88px) 68px;
+  overflow: hidden;
+  background: #111816;
+}
+
+.case-hero img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.62;
+}
+
+.case-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(17, 24, 22, 0.08) 0%, rgba(17, 24, 22, 0.72) 78%);
+}
+
+.case-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 820px;
+  color: #ffffff;
+}
+
+.case-hero-content .eyebrow {
+  color: #d2e6e2;
+}
+
+.case-hero-content h1 {
+  max-width: 820px;
+}
+
+.case-hero-content p:not(.eyebrow) {
+  max-width: 650px;
+  color: #eef0ec;
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
+
+.case-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr);
+  gap: 44px;
+  align-items: start;
+}
+
+.case-intro > p {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.case-video {
+  padding-top: 0;
+}
+
+.case-video video {
+  display: block;
+  width: 100%;
+  max-height: 78vh;
+  background: #111816;
+  object-fit: cover;
+  border: 1px solid var(--line);
 }
 
 .process {
@@ -675,6 +772,7 @@ h3 {
   .project-detail-card,
   .gallery-grid,
   .project-list,
+  .case-intro,
   .process,
   .contact {
     grid-template-columns: 1fr;

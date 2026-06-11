@@ -8,9 +8,9 @@ Site estático pronto para abrir no VS Code, editar e publicar no GitHub Pages.
 
 - Troque o nome `Alexandre` no `index.html`.
 - Atualize os textos de sobre, serviços, atuação e contato.
-- Substitua `seuemail@exemplo.com` pelo seu e-mail.
-- Substitua os links do WhatsApp por seu número no formato `https://wa.me/55DDDNUMERO`.
-- Substitua `https://instagram.com/seuusuario` pelo link do seu Instagram profissional.
+- E-mail usado no site: `Alexandreds4@hotmail.com`.
+- WhatsApp usado no site: `https://wa.me/5512981493546`.
+- Instagram usado no site: `https://instagram.com/Xande_al10`.
 - Se quiser trocar o banner, coloque uma nova imagem em `assets/` e atualize o caminho no `index.html`.
 
 ## Onde colocar renders e video
@@ -35,6 +35,22 @@ PNG funciona normalmente. Voce pode usar `capa.png`, `render-01.png` e assim por
 Para video, use `tour.mp4`. Se o arquivo ficar muito pesado, a pagina pode demorar para carregar quando a pessoa apertar play. A home foi configurada para nao carregar o video automaticamente.
 
 Use nomes sem acento e sem espaco, por exemplo `sala-integrada.png` ou `tour.mp4`.
+
+## Paginas dos projetos
+
+As paginas individuais geradas ficam em:
+
+- `cases/`
+
+A pagina com todos os projetos fica em:
+
+- `projetos.html`
+
+As pastas com imagens dos projetos ficam em:
+
+- `projetos/`
+
+Cada pasta de projeto usa a imagem `capa.png`, `Capa.png` ou a primeira imagem encontrada como capa. Quando quiser trocar os nomes dos projetos, edite os titulos em `projetos.html` e nas paginas dentro de `cases/`.
 
 ## Como abrir
 
