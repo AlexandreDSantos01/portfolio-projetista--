@@ -143,7 +143,7 @@ https://wa.me/5512981493546
 **Instagram**
 
 ```text
-https://instagram.com/Xande_al10
+https://www.instagram.com/nexomobilia?igsh=MTF6MHF6Zjk4bXZkbA%3D%3D
 ```
 
 ---
