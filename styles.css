@@ -261,6 +261,19 @@ h1 {
   border-color: var(--line);
 }
 
+.contact-actions a[href*="instagram.com"] {
+  background: var(--gold-bright);
+  color: #ffffff;
+  border-color: var(--gold-bright);
+  box-shadow: 0 16px 30px rgba(212, 175, 55, 0.28);
+}
+
+.contact-actions a[href*="instagram.com"]:hover {
+  background: var(--gold-bright);
+  border-color: var(--gold-bright);
+  box-shadow: 0 20px 38px rgba(212, 175, 55, 0.34);
+}
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
