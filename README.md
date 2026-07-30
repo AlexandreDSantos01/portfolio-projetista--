@@ -1,66 +1,219 @@
-# Portfólio de Projetista
+# 🎨 Portfólio de Projetista 3D
 
-Versão 1.0
+Portfólio profissional desenvolvido para apresentar projetos de móveis planejados, interiores e renderizações fotorrealistas.
 
-Site estático pronto para abrir no VS Code, editar e publicar no GitHub Pages.
+O site foi desenvolvido utilizando apenas **HTML, CSS e JavaScript**, sendo totalmente compatível com o **GitHub Pages**.
 
-## Como editar
+---
 
-- Troque o nome `Alexandre` no `index.html`.
-- Atualize os textos de sobre, serviços, atuação e contato.
-- E-mail usado no site: `Alexandreds4@hotmail.com`.
-- WhatsApp usado no site: `https://wa.me/5512981493546`.
-- Instagram usado no site: `https://instagram.com/Xande_al10`.
-- Se quiser trocar o banner, coloque uma nova imagem em `assets/` e atualize o caminho no `index.html`.
+# 📌 Recursos
 
-## Onde colocar renders e video
+* Página inicial moderna e responsiva
+* Galeria de projetos
+* Página individual para cada projeto
+* Visualização de imagens em alta qualidade
+* Suporte para vídeo (Tour Virtual)
+* Contato via WhatsApp
+* Link para Instagram
+* Fácil personalização
 
-Use a pasta `assets/projetos/`.
+---
 
-Projeto principal:
+# 📂 Estrutura do Projeto
 
-- `assets/projetos/projeto-principal/capa.jpg`
-- `assets/projetos/projeto-principal/tour.mp4`
-- `assets/projetos/projeto-principal/render-01.jpg`
-- `assets/projetos/projeto-principal/render-02.jpg`
-- `assets/projetos/projeto-principal/render-03.jpg`
+```text
+/
+│
+├── assets/
+│   ├── projetos/
+│   │   ├── projeto-principal/
+│   │   ├── projeto-02/
+│   │   ├── projeto-03/
+│   │   └── ...
+│   │
+│   ├── css/
+│   ├── js/
+│   └── imagens/
+│
+├── cases/
+│
+├── index.html
+├── projetos.html
+└── README.md
+```
 
-Outros destaques:
+---
 
-- `assets/projetos/projeto-02/capa.jpg`
-- `assets/projetos/projeto-03/capa.jpg`
+# 🖼 Adicionando novos projetos
 
-PNG funciona normalmente. Voce pode usar `capa.png`, `render-01.png` e assim por diante.
+Todos os projetos ficam dentro da pasta:
 
-Para video, use `tour.mp4`. Se o arquivo ficar muito pesado, a pagina pode demorar para carregar quando a pessoa apertar play. A home foi configurada para nao carregar o video automaticamente.
+```text
+assets/projetos/
+```
 
-Use nomes sem acento e sem espaco, por exemplo `sala-integrada.png` ou `tour.mp4`.
+Exemplo:
 
-## Paginas dos projetos
+```text
+assets/projetos/projeto-principal/
+```
 
-As paginas individuais geradas ficam em:
+Estrutura recomendada:
 
-- `cases/`
+```text
+capa.jpg
+tour.mp4
+render-01.jpg
+render-02.jpg
+render-03.jpg
+```
 
-A pagina com todos os projetos fica em:
+Também é possível utilizar arquivos **PNG**.
 
-- `projetos.html`
+Exemplo:
 
-As pastas com imagens dos projetos ficam em:
+```text
+capa.png
+render-01.png
+render-02.png
+```
 
-- `projetos/`
+### Vídeos
 
-Cada pasta de projeto usa a imagem `capa.png`, `Capa.png` ou a primeira imagem encontrada como capa. Quando quiser trocar os nomes dos projetos, edite os titulos em `projetos.html` e nas paginas dentro de `cases/`.
+Caso deseje adicionar um tour virtual, utilize:
 
-## Como abrir
+```text
+tour.mp4
+```
 
-Abra o arquivo `index.html` no navegador.
+> Recomenda-se manter os vídeos compactados para melhorar o tempo de carregamento do site.
 
-## Como publicar no GitHub Pages
+---
+
+# 📄 Páginas dos projetos
+
+As páginas individuais ficam em:
+
+```text
+cases/
+```
+
+A página que reúne todos os projetos é:
+
+```text
+projetos.html
+```
+
+Sempre que adicionar um novo projeto, lembre-se de atualizar os títulos e links dessas páginas.
+
+---
+
+# ⚙️ Personalização
+
+As principais informações podem ser alteradas diretamente no arquivo:
+
+```text
+index.html
+```
+
+Personalize:
+
+* Nome do profissional
+* Texto "Sobre"
+* Serviços
+* Área de atuação
+* Informações de contato
+
+---
+
+# 📱 Contatos
+
+**E-mail**
+
+```text
+Alexandreds4@hotmail.com
+```
+
+**WhatsApp**
+
+```text
+https://wa.me/5512981493546
+```
+
+**Instagram**
+
+```text
+https://instagram.com/Xande_al10
+```
+
+---
+
+# 🖼 Banner
+
+Caso queira alterar o banner principal:
+
+1. Adicione a nova imagem dentro da pasta:
+
+```text
+assets/
+```
+
+2. Atualize o caminho da imagem no arquivo:
+
+```text
+index.html
+```
+
+---
+
+# 🚀 Executando o projeto
+
+Como se trata de um site estático, basta abrir o arquivo:
+
+```text
+index.html
+```
+
+em qualquer navegador moderno.
+
+---
+
+# 🌐 Publicando no GitHub Pages
 
 1. Crie um repositório no GitHub.
-2. Envie estes arquivos para o repositório.
-3. No GitHub, entre em `Settings > Pages`.
-4. Em `Build and deployment`, escolha `Deploy from a branch`.
-5. Selecione a branch `main` e a pasta `/root`.
-6. Salve e aguarde o link publicado.
+2. Faça o upload dos arquivos.
+3. Acesse:
+
+```text
+Settings → Pages
+```
+
+4. Em **Build and deployment**, selecione:
+
+```text
+Deploy from a branch
+```
+
+5. Escolha:
+
+```text
+Branch: main
+Folder: /root
+```
+
+6. Aguarde alguns minutos até que o GitHub disponibilize o endereço do site.
+
+---
+
+# 💻 Tecnologias utilizadas
+
+* HTML5
+* CSS3
+* JavaScript
+* GitHub Pages
+
+---
+
+# 📜 Licença
+
+Este projeto é de uso pessoal e pode ser utilizado como base para personalizações e criação de portfólios profissionais.
